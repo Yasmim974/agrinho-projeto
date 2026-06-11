@@ -1,1 +1,62 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Paraná - Produção Agrícola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agro Paraná</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#producao">Produção Agrícola</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Agro Paraná</h2>
+        <p>O estado do Paraná é um dos maiores produtores agrícolas do Brasil, destacando-se na produção de grãos, leite, suínos e aves.</p>
+    </section>
+
+    <section id="producao">
+        <h2>Principais Produtos Agrícolas</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Soja</h3>
+                <p>O Paraná é um dos maiores produtores de soja do país, com destaque para exportação.</p>
+            </div>
+            <div class="card">
+                <h3>Milho</h3>
+                <p>O milho é produzido em grande escala para consumo interno e exportação.</p>
+            </div>
+            <div class="card">
+                <h3>Café</h3>
+                <p>O café paranaense tem alta qualidade e é cultivado principalmente na região sul.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="email" id="email" placeholder="Seu email" required>
+            <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="resposta"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Agro Paraná - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
